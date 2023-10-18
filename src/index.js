@@ -3,11 +3,24 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Home from './components/Home';
+import Musica from './components/Musica';
+import Cine from './components/Cine'
+import Router from './components/Router';
+import MenuRutas from './components/MenuRutas';
+import FormSimple from './components/FormSimple'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <h1>Pagina Principal</h1>
+    <hr></hr>
+    <MenuRutas/>
+    <Router/>
+    {/* <App />
+    <Home/>
+    <Musica/>
+    <Cine/> */}
   </React.StrictMode>
 );
 
